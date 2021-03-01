@@ -1,8 +1,7 @@
-import styles from "../styles/components/Profile.module.css";
-
+import { ProfileContainer } from "./styles";
 export function Profile() {
   return (
-    <div className={styles.profileContainer}>
+    <ProfileContainer>
       <img src="https://github.com/eltoncampos1.png" alt="Elton Campos" />
       <div>
         <strong>Elton Campos</strong>
@@ -11,6 +10,6 @@ export function Profile() {
           Level 1
         </p>
       </div>
-    </div>
+    </ProfileContainer>
   );
 }

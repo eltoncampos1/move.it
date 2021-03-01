@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import styles from "../styles/components/Countdown.module.css";
+import { Container, CountdownButton } from "./styles";
 
 export function Countdown() {
   const [time, setTime] = useState(25 * 60);
@@ -24,7 +24,7 @@ export function Countdown() {
   }, [active, time]);
   return (
     <div>
-      <div className={styles.countDonwContainer}>
+      <Container>
         <div>
           <span>{minuteLeft}</span>
           <span>{minuteRight}</span>
@@ -34,15 +34,11 @@ export function Countdown() {
           <span>{secondLeft}</span>
           <span>{secondRight}</span>
         </div>
-      </div>
+      </Container>
 
-      <button
-        type="button"
-        className={styles.countdownButton}
-        onClick={startCountdown}
-      >
+      <CountdownButton type="button" onClick={startCountdown}>
         Iniciar um cliclo
-      </button>
+      </CountdownButton>
     </div>
   );
 }
