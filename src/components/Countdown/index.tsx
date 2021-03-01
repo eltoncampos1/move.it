@@ -1,9 +1,11 @@
 import { useEffect, useState } from "react";
-import { Container, CountdownButton } from "./styles";
+import { Container, CountdownButton, CountdownButtonActive } from "./styles";
+
+let countDownTimeout: NodeJS.Timeout;
 
 export function Countdown() {
-  const [time, setTime] = useState(25 * 60);
-  const [active, setActive] = useState(false);
+  const [time, setTime] = useState(0.1 * 60);
+  const [isActive, setisActive] = useState(false);
 
   const minutes = Math.floor(time / 60);
   const seconds = time % 60;
@@ -12,16 +14,23 @@ export function Countdown() {
   const [secondLeft, secondRight] = String(seconds).padStart(2, "0").split("");
 
   function startCountdown() {
-    setActive(true);
+    setisActive(true);
+  }
+
+  function resetCountdown() {
+    clearTimeout(countDownTimeout);
+    setisActive(false);
+    setTime(0.1 * 60);
   }
 
   useEffect(() => {
-    if (active && time > 0) {
-      setTimeout(() => {
+    if (isActive && time > 0) {
+      countDownTimeout = setTimeout(() => {
         setTime(time - 1);
       }, 1000);
     }
-  }, [active, time]);
+  }, [isActive, time]);
+
   return (
     <div>
       <Container>
@@ -36,9 +45,15 @@ export function Countdown() {
         </div>
       </Container>
 
-      <CountdownButton type="button" onClick={startCountdown}>
-        Iniciar um cliclo
-      </CountdownButton>
+      {isActive ? (
+        <CountdownButtonActive type="button" onClick={resetCountdown}>
+          Abandonar o ciclo
+        </CountdownButtonActive>
+      ) : (
+        <CountdownButton type="button" onClick={startCountdown}>
+          Iniciar um ciclo
+        </CountdownButton>
+      )}
     </div>
   );
 }
