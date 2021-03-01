@@ -40,3 +40,91 @@ export const ChallengeNotActive = styled.div`
      }
   }
 `;
+
+export const ChallengeActive = styled.div`
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+
+  header {
+    color: var(--blue);
+    font-weight: 600;
+    font-size: 1.25rem;
+    padding: 0 2rem 1.5rem;
+    border-bottom: 1px solid var(--gray-line);
+  }
+`;
+
+
+export const ChallengeBoxMain = styled.main`
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  strong {
+    font-size: 2rem;
+    font-weight: 600;
+    margin: 1.5rem 0 1rem;
+
+    color: var(--title);
+  }
+
+  p {
+    line-height: 1.5;
+  }
+`;
+
+export const ChallengeBoxFooter = styled.footer`
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+`;
+
+export const FailedButton = styled.button`
+  height: 3rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border: 0;
+  border-radius: 5px;
+
+  color: var(--white);
+
+  font-size: 1rem;
+  font-weight: 600;
+  transition: filter 0.2s;
+  
+  background: var(--red);
+
+  &:hover {
+    filter: brightness(0.9);
+  }
+`;
+
+export const CompletedButton = styled.button`
+  height: 3rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border: 0;
+  border-radius: 5px;;
+
+  color: var(--white);
+
+  font-size: 1rem;
+  font-weight: 600;
+  background: var(--green);
+
+   transition: filter 0.2s;
+
+  &:hover {
+    filter: brightness(0.9);
+  }
+`;
