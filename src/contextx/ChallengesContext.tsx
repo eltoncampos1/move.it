@@ -13,6 +13,7 @@ interface ChallengesContextdata {
   activeChallenge: Challenge;
   levelUp: () => void;
   startNewChallenge: () => void;
+  resetChallenge: () => void;
 }
 interface ChallengesProviderProps {
   children: ReactNode;
@@ -51,6 +52,7 @@ export function ChallengesProvidder({ children }: ChallengesProviderProps) {
         levelUp,
         startNewChallenge,
         activeChallenge,
+        resetChallenge,
       }}
     >
       {children}

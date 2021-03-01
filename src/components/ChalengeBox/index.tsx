@@ -11,7 +11,7 @@ import {
 } from "./styles";
 
 export function ChalengeBox() {
-  const { activeChallenge } = useContext(ChallengesContext);
+  const { activeChallenge, resetChallenge } = useContext(ChallengesContext);
 
   return (
     <ChallengeBoxContainer>
@@ -26,7 +26,9 @@ export function ChalengeBox() {
           </ChallengeBoxMain>
 
           <ChallengeBoxFooter>
-            <FailedButton type="button">Failed</FailedButton>
+            <FailedButton onClick={resetChallenge} type="button">
+              Failed
+            </FailedButton>
             <CompletedButton type="button">Succeeded</CompletedButton>
           </ChallengeBoxFooter>
         </ChallengeActive>
