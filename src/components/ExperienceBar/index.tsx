@@ -4,7 +4,9 @@ import { ChallengesContext } from "../../contextx/ChallengesContext";
 import { ExpHeader, CurrentExperience } from "./styles";
 
 export function ExperienceBar() {
-  const { currentExperience } = useContext(ChallengesContext);
+  const { currentExperience, experienceToNextLevel } = useContext(
+    ChallengesContext
+  );
   return (
     <ExpHeader>
       <span>0 xp</span>
@@ -15,7 +17,7 @@ export function ExperienceBar() {
           {currentExperience}
         </CurrentExperience>
       </div>
-      <span>600 xp</span>
+      <span>{experienceToNextLevel} xp</span>
     </ExpHeader>
   );
 }
