@@ -9,3 +9,4 @@ This section should list any major frameworks that you built your project using.
 
 - [Typescript](https://www.typescriptlang.org)
 - [NextJS](https://nextjs.org)
+- [Styled-Components](https://styled-components.com)
