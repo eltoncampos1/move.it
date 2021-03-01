@@ -49,4 +49,5 @@ export const CloseModalBUtton = styled.button`
   top: 0.5rem;
   background: transparent;
   border: 0;
+  font-size: 0px;
 `;
