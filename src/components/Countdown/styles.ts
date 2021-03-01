@@ -63,3 +63,30 @@ export const CountdownButton = styled.button`
     }
 `;
 
+export const CountdownButtonActive = styled.button`
+   width: 100%;
+    height: 5rem;
+
+    margin-top: 2rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: 0;
+    border-radius: 5px;
+
+    background: var(--blue);
+    color: var(--white);
+
+    font-size: 1.25rem;
+    font-weight: 600;
+    transition: background-color 0.2s;
+    background: var(--white);
+    color: var(--title);
+
+    &:hover {
+        background: var(--red);
+        color: var(--white);
+    }
+`;
