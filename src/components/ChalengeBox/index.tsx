@@ -41,10 +41,10 @@ export function ChalengeBox() {
           </ChallengeBoxMain>
 
           <ChallengeBoxFooter>
-            <FailedButton onClick={resetChallenge} type="button">
+            <FailedButton onClick={handleChallengeFailed} type="button">
               Failed
             </FailedButton>
-            <CompletedButton onClick={completeChallenge} type="button">
+            <CompletedButton onClick={handleChallengeSucceeded} type="button">
               Succeeded
             </CompletedButton>
           </ChallengeBoxFooter>
