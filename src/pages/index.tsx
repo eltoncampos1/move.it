@@ -6,6 +6,7 @@ import { ChalengeBox } from "../components/ChalengeBox";
 
 import { Container, LeftSection } from "../styles/pages/Home";
 import Head from "next/head";
+import { CountdownProvider } from "../contextx/CountdownContext";
 
 export default function Home() {
   return (
@@ -15,16 +16,18 @@ export default function Home() {
       </Head>
       <ExperienceBar />
 
-      <LeftSection>
-        <div>
-          <Profile />
-          <CompletedChallenges />
-          <Countdown />
-        </div>
-        <div>
-          <ChalengeBox />
-        </div>
-      </LeftSection>
+      <CountdownProvider>
+        <LeftSection>
+          <div>
+            <Profile />
+            <CompletedChallenges />
+            <Countdown />
+          </div>
+          <div>
+            <ChalengeBox />
+          </div>
+        </LeftSection>
+      </CountdownProvider>
     </Container>
   );
 }
