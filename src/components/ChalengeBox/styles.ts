@@ -14,6 +14,9 @@ export const ChallengeBoxContainer = styled.div`
   justify-content: center;
 
   text-align: center;
+
+  box-shadow: 0px 13px 11px 3px rgba(0,0,0,0.5);
+
 `;
 
 export const ChallengeNotActive = styled.div`

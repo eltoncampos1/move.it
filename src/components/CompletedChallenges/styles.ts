@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-   display: flex;
+  display: flex;
   align-items: center;
   justify-content: space-between;
 
@@ -10,6 +10,7 @@ export const Container = styled.div`
   border-bottom: 1px solid #d7d8da;
 
   font-weight: 500;
+
 
    span:first-child {
        font-size: 1.25rem;
@@ -20,16 +21,3 @@ export const Container = styled.div`
    }
 `;
 
-
-
-// .completedChallengesContainer {
- 
-// }
-
-// .completedChallengesContainer span:first-child {
-//   font-size: 1.25rem;
-// }
-
-// .completedChallengesContainer span:last-child {
-//   font-size: 1.5rem;
-// }
