@@ -95,7 +95,7 @@ npm install -g yarn
 
 <div style="margin-bottom:50px">
 
-![move.it](assets/inicio_move.it.gif)
+![move.it](assets/Inicio_move.it.gif)
 
 </div>
 
