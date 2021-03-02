@@ -174,9 +174,9 @@ Email - [Elton Campos](eltoncampos36@gmail.com) - eltoncampos36@gmail.com
 
 <div style="display: flex" >
 
-<div style="width:20px; margin-right:10px">
+<div style="width:16px; height: 16px; margin-right:10px">
 
-![Github](https://user-images.githubusercontent.com/56568406/109578912-cdd7e400-7ad6-11eb-9816-2e231d14e242.png)
+![github-logo](https://user-images.githubusercontent.com/56568406/109581127-9ec37180-7ada-11eb-86dc-4ede75a19a83.png)
 
 </div>
 
