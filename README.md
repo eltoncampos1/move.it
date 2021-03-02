@@ -95,19 +95,19 @@ npm install -g yarn
 
 <div style="margin-bottom:50px">
 
-![move.it](assets/inicio_move.it.gif)
+![move.it](assets/move-it.gif)
 
 </div>
 
 <div style="margin-bottom:50px">
 
-![25](https://user-images.githubusercontent.com/56568406/109574203-4ab29000-7ace-11eb-9ffb-9657da586f82.png)
+![move.it 1](https://user-images.githubusercontent.com/56568406/109590700-3466fd00-7aeb-11eb-9406-fec92c914af9.png)
 
 </div>
 
 <div style="margin-bottom:50px">
 
-![new challenge](https://user-images.githubusercontent.com/56568406/109574339-82213c80-7ace-11eb-96d5-bdea03754cf5.png)
+![move.it 2](https://user-images.githubusercontent.com/56568406/109590731-43e64600-7aeb-11eb-922f-cd26da854005.png)
 
 </div>
 
