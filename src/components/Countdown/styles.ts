@@ -57,6 +57,8 @@ export const CountdownButton = styled.button`
     font-size: 1.25rem;
     font-weight: 600;
     transition: background-color 0.2s;
+    box-shadow: 0px 13px 11px 3px rgba(0,0,0,0.5);
+
 
     &:hover {
         background: var(--blue-dark);
@@ -78,6 +80,9 @@ export const CountdownButtonActive = styled.button`
 
     background: var(--blue);
     color: var(--white);
+
+    box-shadow: 0px 13px 11px 3px rgba(0,0,0,0.5);
+
 
     font-size: 1.25rem;
     font-weight: 600;
@@ -103,6 +108,7 @@ export const CountdownButtonFinished = styled.button`
 
     border: 0;
     border-radius: 5px;
+    box-shadow: 0px 13px 11px 3px rgba(0,0,0,0.5);
 
     background: var(--white);
     color: var(--text);
