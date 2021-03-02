@@ -1,4 +1,11 @@
 <!-- TABLE OF CONTENTS -->
+
+<div style="text-align:center">
+
+![Logo (1)](https://user-images.githubusercontent.com/56568406/109578082-7b49f800-7ad5-11eb-92b7-78b83582c898.png)
+
+</div>
+
 <details open="open">
   <summary>Table of Contents</summary>
   <ol>
@@ -86,6 +93,93 @@ npm install -g yarn
 
 ## Usage
 
+<div style="margin-bottom:50px">
+
+![move.it](assets/inicio_move.it.gif)
+
+</div>
+
+<div style="margin-bottom:50px">
+
 ![25](https://user-images.githubusercontent.com/56568406/109574203-4ab29000-7ace-11eb-9ffb-9657da586f82.png)
 
+</div>
+
+<div style="margin-bottom:50px">
+
 ![new challenge](https://user-images.githubusercontent.com/56568406/109574339-82213c80-7ace-11eb-96d5-bdea03754cf5.png)
+
+</div>
+
+<!-- ROADMAP -->
+
+## Roadmap
+
+See the [open issues](https://github.com/eltoncampos1/move.it/issues) for a list of proposed features (and known issues).
+
+<!-- CONTRIBUTING -->
+
+## Contributing
+
+Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+1. Fork the Project
+2. Create your Feature Branch
+   ```sh
+   git checkout -b feature/AmazingFeature
+   ```
+3. Commit your Changes
+   ```sh
+   git commit -m 'Add some AmazingFeature'
+   ```
+4. Push to the Branch
+   ```sh
+   git push origin feature/AmazingFeature
+   ```
+5. Open a Pull Request
+
+<!-- LICENSE -->
+
+## License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+<!-- CONTACT -->
+
+## Contact
+
+<div style="display: flex">
+
+<div style="width:20px; margin-right:20px">
+
+![linkedin](https://user-images.githubusercontent.com/56568406/109579556-e268ac00-7ad7-11eb-851d-c3ec098b0b93.png)
+
+</div>
+
+LinkedIn - [Elton Campos](https://www.linkedin.com/in/elton-campos-074015164/)
+
+</div>
+
+<div style="display: flex">
+
+<div style="width:20px; margin-right:20px">
+
+![email](https://user-images.githubusercontent.com/56568406/109579396-9584d580-7ad7-11eb-9d85-29dcbf49d82a.png)
+
+</div>
+
+Email - [Elton Campos](eltoncampos36@gmail.com) - eltoncampos36@gmail.com
+
+</div>
+
+<div style="display: flex" >
+
+<div style="width:20px; margin-right:10px">
+
+![Github](https://user-images.githubusercontent.com/56568406/109578912-cdd7e400-7ad6-11eb-9816-2e231d14e242.png)
+
+</div>
+
+Github - [eltoncampos1](https://github.com/eltoncampos1)
+
+</div>
