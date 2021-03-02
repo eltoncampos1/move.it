@@ -37,7 +37,7 @@ It is a gamified pomodoro application, which every 25 minutes the user must do a
 
 ## To view the application online
 
-- [Move.it](https://move-it-auh8upqsb-eltoncampos1.vercel.app)
+- [Move.it](https://move-it-r0b2f3evp-eltoncampos1.vercel.app)
 
 ### Built With
 
