@@ -82,7 +82,7 @@ npm install -g yarn
    cd file_name
    ```
    
- 3. Install packages
+3. Install packages
    ```sh
    npm install or Yarn
    ```
