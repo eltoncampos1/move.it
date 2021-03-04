@@ -76,14 +76,17 @@ npm install -g yarn
    ```sh
    git clone https://github.com/eltoncampos1/move.it.git
    ```
-2. Install NPM packages
-   ```sh
-   npm install or Yarn
-   ```
-3. enter the project folder
+
+2. enter the project folder
    ```sh
    cd file_name
    ```
+   
+ 3. Install packages
+   ```sh
+   npm install or Yarn
+   ```
+   
 4. Run server
    ```sh
    npm or yarn dev
